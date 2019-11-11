@@ -15,7 +15,6 @@ import GoogleSignIn
 class SpotsListViewController: UIViewController {
     
     @IBOutlet weak var tableView: UITableView!
-    
     @IBOutlet weak var sortSegmentedControl: UISegmentedControl!
     
     var spots: Spots!
